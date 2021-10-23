@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .sidebar {
+        @apply flex top-0 left-0 border h-screen w-16 m-0 fixed flex-col bg-white text-white shadow-xl;
+    }
+
+    .sidebar__icon {
+        @apply relative flex items-center justify-center h-12 w-12 my-2 mx-auto bg-prime text-white hover:bg-white hover:border-4 hover:text-prime hover:border-prime hover:rounded-xl rounded-3xl transition-all ease-linear cursor-pointer;
+    }
+
+    .sidebar__icon__tooltip {
+        @apply transform absolute w-auto p-2 m-2 min-w-max left-14 rounded-md shadow-md text-white bg-prime text-xs font-bold transition-all scale-0 origin-left;
+    }
+}
