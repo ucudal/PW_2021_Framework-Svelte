@@ -1,30 +1,22 @@
 <script lang="ts">
-	export let name: string;
+  import Sidebar from "./Components/Sidebar/Sidebar.svelte";
+  import { Router, Route } from "svelte-navigator";
+  import Svelte from "./Pages/Svelte.svelte";
+  import Community from "./Pages/Community.svelte";
+  import Learning from "./Pages/Learning.svelte";
+  import Compare from "./Pages/Compare.svelte";
+  import Features from "./Pages/Features.svelte";
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+  <Router>
+    <Sidebar />
+    <div class="ml-16">
+      <Route path="/" component={Svelte} />
+      <Route path="/features" component={Features} />
+      <Route path="/community" component={Community} />
+      <Route path="/learning" component={Learning} />
+      <Route path="/compare" component={Compare} />
+    </div>
+  </Router>
 </main>
-
-<style>
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
-	}
-
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
-	}
-</style>
