@@ -13,7 +13,7 @@
     <Sidebar />
     <div class="ml-16">
       <Route path="/" component={Svelte} />
-      <Route path="/features" component={Features} />
+      <Route path="/features" component={Features} unProp="unValor" />
       <Route path="/community" component={Community} />
       <Route path="/learning" component={Learning} />
       <Route path="/compare" component={Compare} />
