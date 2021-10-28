@@ -1,6 +1,8 @@
 <script>
     import ImageCard from "./ImageCard.svelte";
 
+    export let onCorrectAnswerSelected;
+
     const colors = {
         default: 'purple',
         error: 'red',
@@ -26,12 +28,13 @@
         quizzCards.framework.imageUrl = "https://media.giphy.com/media/KY41NM9XNzWy4/giphy.gif"
         quizzCards.framework.imageAlt = "Gif de Alf cantando feliz"
         quizzCards.framework.color = colors.success
+        onCorrectAnswerSelected()
     }
 
     function onLibraryClick() {
         quizzCards.libreria.imageUrl = "https://media.giphy.com/media/NDvZ2XKsfFm24/giphy.gif"
         quizzCards.libreria.imageAlt = "Gif de Alf cuando explota la cocina y sale volando"
-        quizzCards.libreria.color = colors.default
+        quizzCards.libreria.color = colors.error
     }
 </script>
 
