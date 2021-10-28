@@ -5,20 +5,20 @@
 
   <div class="grid grid-cols-3">
     <div class="col-start-2"> 
-      <p>Nivel de mantenimiento y comunidad!</p>
+      <p class="texto titulo">Nivel de mantenimiento y comunidad!</p>
     </div>
   </div>
   
 
   <div class="grid grid-cols-3">
     <div class="col-start-2">
-      <p>Pagina principal</p>
+      <p class="texto titulo">Pagina principal</p>
     </div>
   </div>
 
   <div class="grid grid-cols-4" >
     <div class="col-start-1 col-end-4">
-      <p>La pagina principal de svelte a la que pueden acceder todos los entusiastas a desarrolladores es https://svelte.dev/
+      <p class="texto">La pagina principal de svelte a la que pueden acceder todos los entusiastas a desarrolladores es https://svelte.dev/
       La misma cuenta con varios espacios de soporte como lo son:</p>
     </div>
   </div>
@@ -35,7 +35,7 @@
   
   <div class="grid grid-cols-3">
     <div class="col-start-2"> 
-      <p>Comunidad y Soporte</p>
+      <p class="texto titulo">Comunidad y Soporte</p>
     </div>
   </div>
 
@@ -44,22 +44,22 @@
   </div>
   <div class="grid grid-cols-3">
     <div class="col-start-1 col-end-4">
-      <p>La comunidad del mundo Svelte permanece muy activa ofreciendo opiniones y comparaciones con otros frameworks. Por ejemplo comparandolo con Ruby, o creando entradas en foros sobre porque svelte y TypeScript son la pareja ideal.</p>
-      <p>Asi mismo Svelte cuenta con un canal de Discord (https://discord.gg/qa4pnmw) y Twitter(https://twitter.com/sveltesociety?lang=es).
+      <p class="texto">La comunidad del mundo Svelte permanece muy activa ofreciendo opiniones y comparaciones con otros frameworks. Por ejemplo comparandolo con Ruby, o creando entradas en foros sobre porque svelte y TypeScript son la pareja ideal.</p>
+      <p class="texto">Asi mismo Svelte cuenta con un canal de Discord (https://discord.gg/qa4pnmw) y Twitter(https://twitter.com/sveltesociety?lang=es).
         En estos se dan a conocer noticias importantes y novedades y son uno de los principales puntos de encuentro para desarrolladores que utilizan la herramienta.</p>
-      <p>Por lo que pudimos investigar, la comunidad se mantiene activa a tal punto en el que hay varios posteos por dia en estas aplicaciones.</p>
+      <p class="texto">Por lo que pudimos investigar, la comunidad se mantiene activa a tal punto en el que hay varios posteos por dia en estas aplicaciones.</p>
     </div>
   </div>
 
   <div class="grid grid-cols-3">
     <div class="col-start-2"> 
-      <p>Manejo de bugs</p>
+      <p class="texto titulo">Manejo de bugs</p>
     </div>
   </div>
 
   <div class="grid grid-cols-3">
     <div class="col-start-1 col-end-4">
-      <p>
+      <p class="texto">
         Si bien se pueden reportar bugs o problemas en las aplicaciones mencionadas anteriormente, tambien existe un repo de github donde los usuarios pueden dejar sus reportes o sugerencias de implementacion de mejoras (https://github.com/sveltejs/svelte/issues) A la fecha en que estoy escribiendo esto, el ultimo reporte es de hace dos dias, por lo que creo que es seguro afirmar que se trata de un recurso utilizado con frecuencia por los usuarios y la comunidad en si.
       </p>
     </div>
