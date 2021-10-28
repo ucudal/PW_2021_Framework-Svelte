@@ -1,4 +1,13 @@
-<div class="container">
-  <h1>Bienvenido al maravilloso mundo de Svelte! 🙌✨</h1>
-  <p>En breves van a haber cosas lindas por acá 😋</p>
+<script>
+import Header from "../Components/Common/Header.svelte";
+
+  import Definitions from "../Components/Svelte/Definitions.svelte";
+  import Quizz from "../Components/Svelte/Quizz.svelte";
+  import WhatsSvelte from "../Components/Svelte/WhatsSvelte.svelte";
+</script>
+<div class="p-5 w-2/3 ml-auto mr-auto mt-10">
+  <Header title="Bienvenido al maravilloso mundo de Svelte! 🙌✨"/>
+  <Definitions />
+  <Quizz />
+  <WhatsSvelte />
 </div>
