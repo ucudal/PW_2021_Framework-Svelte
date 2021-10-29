@@ -29,6 +29,6 @@
 
 </script>
 <article class="p-5 m-5 bg-red-200 rounded-full py-3 px-6">
-    <h1>{opinions[id].name}</h1>
+    <h1 class="underline text-xl mb-3">{opinions[id].name}</h1>
     <h3>{opinions[id].text}</h3>
 </article>
