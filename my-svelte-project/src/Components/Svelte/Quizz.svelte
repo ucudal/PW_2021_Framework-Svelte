@@ -12,14 +12,14 @@
     const quizzCards = {
         framework: {
             title: 'Framework',
-            imageUrl: 'https://media.giphy.com/media/7J1llSYGJhKQJpVS9V/giphy.gif',
-            imageAlt: 'Gif de Alf filmando con una cámara',
+            imageUrl: 'https://media.giphy.com/media/Jn6UleOajZxAY/giphy.gif',
+            imageAlt: 'Gif de Alf mirando una película',
             color: colors.default
         },
         libreria: {
             title: 'Libreria',
-            imageUrl: 'https://media.giphy.com/media/Jn6UleOajZxAY/giphy.gif',
-            imageAlt: 'Gif de Alf mirando una película',
+            imageUrl: 'https://media.giphy.com/media/7J1llSYGJhKQJpVS9V/giphy.gif',
+            imageAlt: 'Gif de Alf filmando con una cámara',
             color: colors.default
         }
     }
