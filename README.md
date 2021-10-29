@@ -5,6 +5,8 @@
 ## Qué trae Svelte out-of-the-box para ofrecerte?
 **José**
 
+[Ir a archivo](/docs/funcionalidades.md#%EF%B8%8F-funcionalidades-out-of-the-box)
+
 Dependiendo del framework algunos traen soluciones para
 aspectos diferentes, otros dependen de soluciones tipo plugins/addons externos. La
 idea es que puedan cubrir qué sí viene con el framework que les toca investigar y hacer
@@ -12,6 +14,8 @@ mención de lo que no.
 
 ## Nivel de mantenimiento y comunidad
 **Fran**
+
+[Ir a archivo](/docs/mantenimiento-y-comunidad.md#nivel-de-mantenimiento-y-comunidad)
 
 Es muy importante saber si el framework tiene
 una comunidad activa que mantiene con buena frecuencia los “bugs” que van surgiendo
@@ -21,6 +25,8 @@ puedan dar un vistazo detrás de las cortinas sobre estos temas.
 ## Curva de aprendizaje
 **Anita**
 
+[Ir a archivo](/docs/curva-de-aprendizaje.md)
+
 Algunos frameworks necesitan más esfuerzo para poder
 entender que otros, por su manejo de conceptos y su configuración inicial para hacerlos
 funcionar. La idea es que mediante la aplicación de prueba del primer punto puedan
@@ -29,9 +35,12 @@ medir esto para luego comparar en clase con la experiencia del resto de los equi
 ## Framework o Libreria?
 **Betti**
 
+[Ir a archivo](/docs/framework-library.md#bienvenido-al-maravilloso-mundo-de-svelte-)
+
 Habiendo hablado de la distinción entre framework y librería en
 clase, ¿lo consideran más framework o librería? ¿Por qué?
 
 ### Opcionales
 - *Comparación previa*
+[Ir a archivo](/docs/comparativas.md#%EF%B8%8F-comparativas-con-otros-frameworks)
 - *Interoperabilidad y extensibilidad*
